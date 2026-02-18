@@ -1,0 +1,18 @@
+/** 
+
+* @author Developer
+* @version 3.0
+**/
+class Oops{
+	public static void main(String[] args){
+		System.out.println(String.join("  ", "   ***   ", "   ***   ", " ****** ", "   ***** "));
+		System.out.println(String.join("  ", " **   **", "  **   **", "  **   **", " **"));
+		System.out.println(String.join("  ", "**     **", "**     **", " **    **", "**"));
+		System.out.println(String.join("  ", "**     **", "**     **", " **   **", " **"));
+		System.out.println(String.join("  ", "**     **", "**     **", " ****** ", "   ****"));
+		System.out.println(String.join("  ", "**     **", "**     **", " **     ", "      **"));
+		System.out.println(String.join("  ", "**     **", "**     **", " **     ", "       **"));
+		System.out.println(String.join("  ", " **   **", "  **   **", "  **     ", "      **"));
+		System.out.println(String.join("  ", "   ***   ", "   ***  ", " **     ", "  ***** "));
+	}
+}
