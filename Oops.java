@@ -1,9 +1,18 @@
 /*
-@author Developer
-@version 1.0
-*/
-class Main{
-   public static void main(String[] args){
-         System.out.print("OOPS");
+* @author Developer
+* @version 2.0
+**/
+class OopsBanner{
+	public static void main(String[] args){
+		System.out.println("   ***   " + " " + "   ***   " + " " + " ******   " + "  ***** ");
+		System.out.println(" **   **" + " " + "  **   **" + " " + "  **   **" + " " +  " **");
+		System.out.println("**     **" + " " + "**     **" + " " + " **    **" + " " + "**");
+		System.out.println("**     **" + " " + "**     **" + "  **   **" + " " + " " + " **");
+		System.out.println("**     **" + " " + "**     **" + " " + " ****** " + " " + "   ****");
+		System.out.println("**     **" + " " + "**     **" + " " + " **     " + " " + "      **");
+		System.out.println("**     **" + " " + "**     **" + " " + " **     " + " " + "       **");
+		System.out.println(" **   **" + " " + "  **   **" + " " + "  **     " + " " + "      **");
+		System.out.println("   ***   " + " " + "   ***   " + " " + " **     " + "  ***** ");
+	}
 }
-}
+
