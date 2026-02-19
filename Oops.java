@@ -1,13 +1,11 @@
 /**
-*OOPSBannerApp UC6 - OOPS Banner Application (Use Case 6)
-*
-*This use case extends UC5 by implementing a modular approach to generate each letter's pattern through
-*dedicated methods.
-*@author Developer
-*@version 6
+*author Developer
+*version 7
 */
-class Oops{
-	//Method to create O pattern
+class GetCharacter{
+	static class Pattern{
+		//Pattern - Inner class for storing the pattern
+		//Method to create O pattern
 	public static String[] getopattern(){
 			return new String[]{
 				"   ***   ",
@@ -49,16 +47,17 @@ class Oops{
 			"  ***** "
 		};
 	}
-		
-    public static void main(String[] args){
-		  
-		 String opattern[]=getopattern();
-		 String ppattern[]=getppattern();
-		 String spattern[]=getspattern();
-		 for(int i=0;i<opattern.length;i++){
+	}
+	}
+	class Main{
+		public static void main(String[] args){
+			GetCharacter.Pattern pattern=new GetCharacter.Pattern();
+			String opattern[] = pattern.getopattern();
+			String ppattern[] = pattern.getppattern();
+			String spattern[] = pattern.getspattern();
+			for(int i=0;i<opattern.length;i++){
 			 System.out.println(opattern[i]+"  "+opattern[i]+"  "+ppattern[i]+"  "+spattern[i]);
 		 }
-		
-		
+	}
 }
-}
+	  
